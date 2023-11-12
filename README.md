@@ -1,9 +1,9 @@
 # DACS-N07
 
-Thành viên:
+## Đề tài: Thiết kế website học tiếng anh Piyo English
 
-- Ngô Khánh Chinh
+### Các thành viên: 
 
-- Nguễn Mai Linh
-
-- Lê Thị Nhi
+1. Lê Thị Nhi - 21011123
+2. Ngô Khánh Chinh - 21010667
+3. Nguyễn Mai Linh - 21010582
