@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Piyo English</title>
+    <title>Cập nhật profile - Piyo English</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/logo3.png">
@@ -76,56 +76,33 @@
         </nav>
     </div>
     
-    <section class="contact">
-
-        <div class="row">
-     
-           <div class="image">
-              <img src="images/contact.png" alt="">
-           </div>
-     
-           <form action="" method="post">
-              <h3>Liên hệ với chúng tôi</h3>
-              <input type="text" placeholder="Họ và tên" name="name" required maxlength="50" class="box">
-              <input type="email" placeholder="Email" name="email" required maxlength="50" class="box">
-              <input type="number" placeholder="Số điện thoại liên hệ" name="number" required maxlength="50" class="box">
-              <textarea name="msg" class="box" placeholder="Đặt câu hỏi" required maxlength="1000" cols="30" rows="10"></textarea>
-              <input type="submit" value="Gửi" class="inline-btn" name="submit">
-           </form>
-     
-        </div>
-     
-        <div class="box-container">
-     
-           <div class="box">
-              <i class="fas fa-phone"></i>
-              <h3>Số điện thoại</h3>    
-              <a href="tel:1234567890">21-010-582</a>
-              <a href="tel:1112223333">21-010-667 </a>
-              <a href="tel:1112223333">21-011-123</a>
-           </div>
-           
-           <div class="box">
-              <i class="fas fa-envelope"></i>
-              <h3>Email</h3>
-              <a href="mailto:shaikhanas@gmail.com">21010582@st.phenikaa-uni.edu.vn</a>
-              <a href="mailto:anasbhai@gmail.com">21010667@st.phenikaa-uni.edu.vn</a>
-              <a href="mailto:anasbhai@gmail.com">21011123@st.phenikaa-uni.edu.vn</a>   
-           </div>
-     
-           <div class="box">
-              <i class="fas fa-map-marker-alt"></i>
-              <h3>Địa chỉ</h3>
-              <a href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+H%E1%BB%8Dc+Phenikaa/@20.9625914,105.6662847,12z/data=!4m6!3m5!1s0x313452efff394ce3:0x391a39d4325be464!8m2!3d20.9626112!4d105.7486864!16s%2Fg%2F1220whsz?entry=ttu">Trường Đại Học Phenikaa
-                P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội</a>
-           </div>
-     
-        </div>
-     
-    </section>
 
 
 
+    <section class="form-container">
+
+        <form action="" method="post" enctype="multipart/form-data">
+           <h3>Cập nhật profile</h3>
+           <p>Họ và tên</p>
+           <input type="text" name="name" placeholder="Nguyễn Mai Linh" maxlength="50" class="box">
+           <p>Email</p>
+           <input type="email" name="email" placeholder="linh@gmail.com" maxlength="50" class="box">
+           <p>Mật khẩu hiện tại</p>
+           <input type="password" name="old_pass" placeholder="Nhập mật khẩu hiện tại" maxlength="20" class="box">
+           <p>Mật khẩu mới</p>
+           <input type="password" name="new_pass" placeholder="Nhập mật khẩu mới" maxlength="20" class="box">
+           <p>Xác nhận mật khẩu</p>
+           <input type="password" name="c_pass" placeholder="Xác nhận mật khẩu mới" maxlength="20" class="box">
+           <p>Ảnh đại diện mới</p>
+           <input type="file" accept="image/*" class="box">
+           <input type="submit" value="Cập nhật" name="submit" class="btn">
+        </form>
+     
+     </section>
+
+
+
+     
     <footer class="footer">
         &copy; copyright @ 2023 by <span> Piyo English </span>
     </footer>

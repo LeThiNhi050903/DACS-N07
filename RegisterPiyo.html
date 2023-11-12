@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký - Piyo English</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo3.png">
+    <link rel="stylesheet" href="css/RegisterPiyo.css">
+</head>
+<body>
+    <div class="section">
+        <div class="section-left">
+            <img src="images/logo1.png" alt="">
+        </div>
+
+        <div class="section-right">
+            <h1>Đăng ký</h1>
+            <form onsubmit="register()">
+                <div class="inputField registerName">
+                    <input type="text" placeholder="Full Name" class="fullName item" id="fullname">
+                    <label class="Label">Họ và tên</label>
+                </div>
+        
+                <div class="inputField registerAge">
+                    <input type="text" placeholder="Age" class="ageUser item" id="ageuser">
+                    <label class="Label">Tuổi</label>
+                </div>
+
+                <div class="inputField registerGender">
+                    <input type="text" placeholder="Gender" class="genderUser item" id="genderuser">
+                    <label class="Label">Giới tính</label>
+                </div>
+                
+                <div class="inputField registerEmail">
+                    <input type="email" placeholder="Email" class="emailCreate item" id="email">
+                    <label class="Label">Email</label>
+                </div>
+                
+                <div class="inputField registerPass">
+                    <input type="password" placeholder="Password" class="passCreate item" id="password">
+                    <label class="Label">Password</label>
+                </div>
+    
+                <div class="field button">
+                    <button type="submit" class="btnCreate">Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/RegisterPiyo.js"></script>
+</body>
+</html>

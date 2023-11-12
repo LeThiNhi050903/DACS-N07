@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - Piyo English</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/newLogo.png">
+    <link rel="stylesheet" href="css/LoginPiyo.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo3.png">
+</head>
+<body>
+    <div class="form-login">
+        <div class="form-left">
+            <img src="images/logo2.png" alt="">
+        </div>
+
+        <div class="form-right">
+            <div class="logInAccount-head"><h1>Login</h1></div>
+            <form onsubmit="login()">
+                <div class="InputField logInEmail">
+                    <input type="email" placeholder="Email" class="emailLogIn item-login" id="email">
+                    <label class="LabelLogIn">Email</label>
+                </div>
+        
+                <div class="InputField logInPass">
+                    <input type="password" placeholder="Password" class="passLogIn item-login" id="password">
+                    <label class="LabelLogIn">Password</label>
+                </div>
+                
+                <button type="submit" class="signIn btnSignIn" id="loginBtn">Sign in</button><br>
+                <a href="RegisterPiyo.html" class="signUp">Create account</a>
+        </form>
+        </div>
+    </div>
+</body>
+    <script src="js/RegisterPiyo.js"></script>
+</html>

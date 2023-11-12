@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(14, 137, 225);
+}
+
+.form-login {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 120px auto;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+}
+
+.form-login .form-left {
+    flex-basis: 30%;
+}
+
+.form-login .form-left img {
+    width: 300px;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+.form-login .form-right {
+    flex-basis: 70%;
+    padding-top: 50px;
+}
+
+.form-login .logInAccount-head h1 {
+    padding-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    padding-bottom: 30px;
+}
+
+.form-login .InputField {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-login .InputField .item-login {
+    width: 350px;
+    height: 28px;
+    padding: 10px 14px;
+    transition: 0.3s ease;
+}
+
+.form-login .InputField .item-login:hover {
+    border-color: gray;
+}
+
+.form-login .InputField .item-login::placeholder {
+    color: transparent;
+}
+
+.form-login .InputField .LabelLogIn {
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    color: rgba(0, 0, 0, 0.692);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-login .InputField .item-login:focus + .LabelLogIn, 
+.form-login .InputField .item-login:not(:placeholder-shown) + .LabelLogIn {
+    transform: translate(0, -10px);
+    font-size: 10px;
+}
+
+.form-login button {
+    width: 118px;
+    height: 58px;
+    background-color: aqua;
+    border-radius: 6px;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 2px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 30px 120px;
+}
+
+.form-login button:hover {
+    transform: scale(1.05);
+}
+
+.form-login .signUp {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.74);
+    margin-left: 130px;
+}
+
+.form-login .signUp:hover {
+    border-bottom: 2px solid black;
+}
