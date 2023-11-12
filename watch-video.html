@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video bài giảng - Piyo English</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo3.png">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="home.html" class="logo"> 
+                <img src="images/logo.png"> 
+            </a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="Tìm khóa học..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search-box">
+                </button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="images/student-1.png" alt="">
+                <h3> Nguyễn Mai Linh</h3>
+                <span>Học sinh</span>
+                <a href="profile.html" class="btn"> Xem profile</a>
+            </div>
+
+        </section>
+    </header>
+
+    <div class="side-bar">
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="images/student-1.png" alt="">
+            <h3> Nguyễn Mai Linh</h3>
+            <span>Học sinh</span>
+            <a href="profile.html" class="btn"> Xem profile</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html"> 
+                <i class="fas fa-home"></i> 
+                <span>Trang chủ</span>
+            </a>
+            <a href="about.html"> 
+                <i class="fas fa-question"></i> 
+                <span>Giới thiệu</span>
+            </a>
+            <a href="courses.html"> 
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Khóa học</span>
+            </a>
+            <a href="teachers.html"> 
+                <i class="fas fa-chalkboard-user"></i> 
+                <span>Gia sư</span>
+            </a>
+            <a href="contact.html"> 
+                <i class="fas fa-headset"></i> 
+                <span>Liên hệ</span>
+            </a>
+            <a href="tin_tuc.html"> 
+               <i class="fa-solid fa-newspaper"></i>
+               <span>Tin tức</span>
+           </a>
+        </nav>
+    </div>
+    
+
+
+    <section class="watch-video">
+
+        <div class="video-container">
+           <div class="video">
+              <video src="images/khoa_hoc_1(part1).mp4" controls poster="images/khoa_hoc_1.png" id="video"></video>
+           </div>
+           <h3 class="title">Từ vựng cơ bản 1 (phần 01)</h3>
+           <div class="info">
+              <p class="date"><i class="fas fa-calendar"></i><span>25-05-2023</span></p>
+              <p class="date"><i class="fas fa-heart"></i><span>44 likes</span></p>
+           </div>
+           <div class="tutor">
+              <img src="images/teacher-1.png" alt="">
+              <div>
+                  <h3>An Kim Khanh</h3>
+                  <span>21-01-1990</span>
+              </div>
+           </div>
+           <form action="" method="post" class="flex">
+              <a href="playlist.html" class="inline-btn">Xem khóa học</a>
+              <button><i class="far fa-heart"></i><span>like</span></button>
+            </form>
+           <p class="description">
+            Mục tiêu của khóa học là giúp bạn xây dựng và mở rộng vốn từ vựng tiếng Anh cơ bản một cách chắc chắn và hiệu quả. Hãy bắt đầu học ngay hôm nay!
+           </p>
+         </div>
+         <div class="test">
+            <h3>Làm thêm bài tập để củng cố kiến thức</h3>
+            <a href="quiz.html" class="inline-btn">Làm bài tập</a>
+         </div>
+     
+     </section>
+     
+     <section class="comments">
+     
+        <h1 class="heading">5 Bình luận</h1>
+     
+        <form action="" class="add-comment">
+           <h3>Bình luận</h3>
+           <textarea name="comment_box" placeholder="Mời bạn đánh giá về bài giảng" required maxlength="1000" cols="30" rows="10"></textarea>
+           <input type="submit" value="Comment" class="inline-btn" name="add_comment">
+        </form>
+     
+        <h1 class="heading">Bình luận của người xem</h1>
+     
+        <div class="box-container">
+     
+           <div class="box">
+              <div class="user">
+                 <img src="images/student-1.png" alt="">
+                 <div>
+                    <h3>Nguyễn Mai Linh</h3>
+                    <span>03/07/2003</span>
+                 </div>
+              </div>
+              <div class="comment-box">Hay!!!</div>
+              <form action="" class="flex-btn">
+                 <input type="submit" value="Sửa comment" name="edit_comment" class="inline-option-btn">
+                 <input type="submit" value="Xóa comment" name="delete_comment" class="inline-delete-btn">
+              </form>
+           </div>
+     
+           <div class="box">
+              <div class="user">
+                 <img src="images/avt1.png" alt="">
+                 <div>
+                    <h3>Trịnh Vinh Diệu</h3>
+                    <span>13-10-2000</span>
+                 </div>
+              </div>
+              <div class="comment-box">Video hay quá! Cách giải thích rõ ràng và dễ hiểu.</div>
+           </div>
+     
+           <div class="box">
+              <div class="user">
+                 <img src="images/avt6.png" alt="">
+                 <div>
+                    <h3>Cao Bảo Châu</h3>
+                    <span>04-02-2002</span>
+                 </div>
+              </div>
+              <div class="comment-box">Rất dễ hiểu.
+                  Cảm ơn cô!
+              </div>
+           </div>
+     
+           <div class="box">
+              <div class="user">
+                 <img src="images/avt3.png" alt="">
+                 <div>
+                    <h3>Mẫn Mai Khanh</h3>
+                    <span>25-11-2003</span>
+                 </div>
+              </div>
+              <div class="comment-box">Mong chờ nhiều nội dung bổ ích hơn nữa! </div>
+           </div>
+     
+           <div class="box">
+              <div class="user">
+                 <img src="images/avt4.png" alt="">
+                 <div>
+                    <h3>Thịnh Như Ngà</h3>
+                    <span>10-10-1999</span>
+                 </div>
+              </div>
+              <div class="comment-box">Đúng thứ em cần tìm. Cảm ơn cô.</div>
+           </div>
+     
+           <div class="box">
+              <div class="user">
+                 <img src="images/avt5.png" alt="">
+                 <div>
+                    <h3>Trần Ðình Luận</h3>
+                    <span>13-06-2004</span>
+                 </div>
+              </div>
+              <div class="comment-box">Video rất hữu ích!
+                  Em có thể tải video này không?
+              </div>
+           </div>
+     
+        </div>
+     
+     </section>
+
+
+
+     
+    <footer class="footer">
+        &copy; copyright @ 2023 by <span> Piyo English </span>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
